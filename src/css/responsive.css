@@ -1,0 +1,35 @@
+@media screen and (max-width: 420px) {  
+    body {
+        max-width: 100%;
+    }
+    header {
+        height: 100px;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 10px;
+    }
+    a {
+        padding-left: 0px;
+        font-size: 15px;
+    }
+    main {
+        height: 560px;
+    }
+    main .content-main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        padding: 40px;
+        gap: 40px;
+        padding-top: 10px;
+    
+    }
+    .astronaut-image {
+        width: 250px;
+    }
+
+}

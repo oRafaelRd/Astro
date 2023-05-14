@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+
+body {
+    background-color: #333333;
+    font-family: 'Poppins' sans-serif;
+    color: white;
+    max-width: 100%;
+}
+header {
+    background-color: #242323;
+    height: 70px;
+    flex-wrap: wrap;
+    transition: 0.9s;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    padding-top: 21px;
+}
+a {
+    color: #ffffff;
+    font-weight: 800px;
+    padding: 6px;
+    font-size: 18px;
+    transition: .3s;
+}
+a:hover {
+    transform: scale(1.05);
+    background-color: #1c1a1a;
+    border-radius: 6px;
+}
+main {
+    height: 560px;
+}
+main .content-main-container {
+    display: flex;
+    justify-content:center;
+    padding: 40px;
+    gap: 180px;
+    padding-top: 70px;
+
+}
+main .text-container {
+    padding-top: 30px;
+}
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+p {
+    padding-top: 30px;
+    font-weight: 800px;
+    text-align:right;
+    font-size: 22px;
+    line-height: 40px;
+}
+footer {
+    background-color: #242323;
+    text-align: center;
+    padding: 10px;
+}
+.astronaut-image {
+    transition: 0.4s ease-in-out;
+
+}
+.astronaut-image:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.universe-mode {
+    background-image: url("/src/images/universe-image.jpg");
+    background-size: 1520px;
+}
+.background-change {
+    background-color:#33333359;
+}
