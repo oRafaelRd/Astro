@@ -69,7 +69,8 @@ footer {
     cursor: pointer;
 }
 .universe-mode {
-    background-image: url("/src/images/universe-image.jpg");
+    background: rgb(20,22,54);
+    background: linear-gradient(90deg, rgba(20,22,54,1) 0%, rgba(7,8,27,1) 100%);
     background-size: 1520px;
 }
 .background-change {
